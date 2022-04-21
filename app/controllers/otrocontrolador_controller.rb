@@ -1,0 +1,3 @@
+class OtrocontroladorController < ApplicationController
+
+end
