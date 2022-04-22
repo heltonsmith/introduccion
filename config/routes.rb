@@ -5,7 +5,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   get "/home", to: "pages#casa"
   get "/edi", to: "pages#edificio"
+  get "/autito", to: "pages#autito"
   get "/auto", to: "pages#auto"
   get "/", to: "pages#auto"
+
 end
 
